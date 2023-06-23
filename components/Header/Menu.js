@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "../common/Button"
+import headerLines from '../../public/header-lines.png'
 
 const Menu = () => {
   const menuLinks = ['home', 'about', 'courses', 'blog']
@@ -13,14 +14,12 @@ const Menu = () => {
         </div>
       ))}
       <div className='my-auto flex gap-20'>
-        <Button buttonClass='bg-black text-white h-9 w-24'>
-          sing in
+        <Button buttonClass='bg-black text-main w-28'>
+          sign in
         </Button>
         <Image
-          src='/Lines.png'
+          src={headerLines}
           alt="Lines"
-          height={25}
-          width={51}
         />
       </div>
     </div>

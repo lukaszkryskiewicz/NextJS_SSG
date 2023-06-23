@@ -1,14 +1,12 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import headerLogo from '../../public/header-logo.png';
 
 const Logo = () => {
   return (
     <div className='flex-initial my-auto'>
       <Image
-        src='/Your_Logo.png'
+        src={headerLogo}
         alt="Your Logo"
-        className='align-self-center'
-        width={100}
-        height={24}
       />
     </div>
   )

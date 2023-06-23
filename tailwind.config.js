@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      'main': '#f1f1f1',
       'mainPurple': '#aa84f9',
       'black': '#000000',
       'white': '#ffffff',
@@ -14,6 +15,7 @@ module.exports = {
 
     fontFamily: {
       'buttonFont': ['Oswald', 'sans-serif'],
+      'krub': ['Krub', 'sans-serif'],
     },
     extend: {
 
