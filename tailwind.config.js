@@ -20,6 +20,9 @@ module.exports = {
     extend: {
 
     },
+    container: {
+      padding: '10px',
+    },
   },
   plugins: [],
 }
