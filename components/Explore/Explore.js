@@ -5,7 +5,7 @@ import arrowDown from '../../public/arrow-down.png'
 
 const Explore = () => {
   return (
-    <div className='container mx-auto mt-40 relative h-[720px]'>
+    <div className='container mx-auto my-32 relative h-[720px]'>
       <div className='absolute left-1/2 -translate-x-1/2'>
         <div className='relative'>
           <Image
