@@ -1,5 +1,5 @@
 const { default: Image } = require("next/image")
-import introSign from '../../public/intro-s.png'
+import UiSign from '../../public/ui-sign.png'
 import introPerson from '../../public/intro-person.png'
 import ArrowRight from '../../public/arrow-right.png'
 import ArrowLeft from '../../public/arrow-left.png'
@@ -10,14 +10,14 @@ const Intro = () => {
     <div className='relative'>
       <div className='container mx-auto relative h-[870px]'>
         <Image
-          src={introSign}
-          alt="s sign"
-          className="opacity-60 absolute right-0 top-0 z-10"
+          src={UiSign}
+          alt="ui sign"
+          className="opacity-60 absolute -right-10 top-0 z-10"
         />
         <Image
           src={introPerson}
           alt="person"
-          className="absolute right-36 top-6"
+          className="absolute right-24 top-6"
         />
         <div className='font-krub'>
           <div className='w-1/4 pt-10'>
@@ -49,7 +49,7 @@ const Intro = () => {
         </div>
       </div>
       <div className='absolute inset-x-0 bottom-0 z-20 font-krub'>
-        <div className='container mx-auto mb-20 arrows flex justify-between'>
+        <div className='container mx-auto mb-8 arrows flex justify-between'>
           <Image
             src={ArrowLeft}
             alt="left arrow"
@@ -64,7 +64,7 @@ const Intro = () => {
             <div className='my-auto relative'>
               Join the <span className='font-black'>community <span className='text-4xl absolute -bottom-1 ms-3'>{'\u25A0'}</span></span>
             </div>
-            <div className='my-auto flex flex-col outline outline-2 outline-offset-2 text-center p-6 me-9'>
+            <div className='my-auto flex flex-col outline outline-2 outline-offset-2 text-center p-6'>
               <span className='text-base uppercase'>Editio<span className='tracking-normal'>n</span></span>
               <span className=''>202<span className='tracking-normal'>2</span></span>
             </div>
