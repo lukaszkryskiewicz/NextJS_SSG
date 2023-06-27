@@ -11,6 +11,7 @@ module.exports = {
       'mainPurple': '#aa84f9',
       'black': '#000000',
       'white': '#ffffff',
+      'registerColor': '#a460f9',
     },
 
     fontFamily: {
