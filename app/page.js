@@ -4,6 +4,7 @@ import Header from '@/components/Header/Header'
 import HowItWorks from '@/components/HowItWorks/HowItWorks'
 import Intro from '@/components/Intro/Intro'
 import Register from '@/components/Register/Register'
+import UsersSection from '@/components/UsersSection/UsersSection'
 import WhyUs from '@/components/WhyUs/WhyUs'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorks />
       <WhyUs />
       <Register />
+      <UsersSection />
     </main>
   )
 }
