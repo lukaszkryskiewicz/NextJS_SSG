@@ -12,6 +12,7 @@ module.exports = {
       'black': '#000000',
       'white': '#ffffff',
       'registerColor': '#a460f9',
+      'transparent': 'transparent',
     },
 
     fontFamily: {
@@ -25,5 +26,7 @@ module.exports = {
       padding: '10px',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
