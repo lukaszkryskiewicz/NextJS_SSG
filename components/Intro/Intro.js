@@ -20,9 +20,9 @@ const Intro = () => {
           className="absolute right-24 top-6"
         />
         <div className='font-krub'>
-          <div className='w-1/4 pt-10'>
+          <div className='w-1/4 pt-5'>
             <div className='mb-20 relative uppercase flex justify-between items-end after:content-[""] after:absolute after:-bottom-9 after:left-2 after:w-[70px] after:border-solid after:border-2'>
-              <h1 className='text-[100px] uppercase font-bold leading-none tracking-widest'>ui.</h1>
+              <h1 className='text-[116px] uppercase font-bold leading-none'>ui.</h1>
               <h2 className='text-[38px] font-light tracking-widest'>beginner<span className='font-bold lowercase'>{"'s"}</span></h2>
             </div>
           </div>
@@ -34,7 +34,6 @@ const Intro = () => {
                   <span className='text-4xl ms-3 absolute bottom-0'>{'\u25A0'}</span>
                 </p>
               </div>
-
               <div className='w-32 text-[16px] font-bold uppercase me-10'>
                 <h4 className='relative'>Become a pro-designer
                   <span className='text-4xl absolute -top-3 -left-7 '>{'\u25A0'}</span>

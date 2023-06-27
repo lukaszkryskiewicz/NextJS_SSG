@@ -39,10 +39,15 @@ const Explore = () => {
           </div>
           <div className='font-bold uppercase relative'>
             <div className='absolute -left-20 -top-10 -rotate-90'>
-              <span className='text-[25px] me-5'>{'\u25A0'}</span> online courses
+              <p><span className='text-[25px] me-5'>{'\u25A0'}</span>
+                online courses
+              </p>
             </div>
             <div className='absolute -right-20 -top-10 -rotate-90'>
-              <span className='text-[25px] me-5'>{'\u25A0'}</span> online courses
+              <p>
+                <span className='text-[25px] me-5'>{'\u25A0'}</span>
+                online courses
+              </p>
             </div>
           </div>
         </div>
