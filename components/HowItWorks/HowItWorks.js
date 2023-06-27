@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const HowItWorks = () => {
   return (
-    <div className='container mx-auto font-krub mb-40'>
+    <div className='container mx-auto font-krub pb-20 mb-20 overflow-hidden'>
       <div className='relative float-right font-bold tracking-widest before:content-[""] before:top-4 before:-left-24 before:absolute before:border-solid before:border-[3px] before:w-[66px]'>
         <p className='text-[21px]'>2022</p>
       </div>
@@ -43,7 +43,7 @@ const HowItWorks = () => {
           <Image
             src={UIsign}
             alt="ui sign"
-            className="opacity-60 absolute -right-[55%] top-0 z-10 scale-[0.95]"
+            className="absolute -right-[55%] top-0 z-10 scale-[0.95]"
           />
           <Image
             src={howItWorksPerson}

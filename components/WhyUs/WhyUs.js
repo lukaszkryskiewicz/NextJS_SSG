@@ -12,7 +12,7 @@ const WhyUs = () => {
             <Image
               src={UIsign}
               alt="ui sign"
-              className="opacity-60 -rotate-90 z-10 scale-50"
+              className="-rotate-90 z-10 scale-50"
             />
             <div className='absolute right-[12%] bottom-1/4 text-[54px] text-mainPurple'>{'\u2b24'}</div>
           </div>

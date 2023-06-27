@@ -5,13 +5,13 @@ import subscribePerson from '../../public/subscribe-person.png'
 
 const Subscribe = () => {
   return (
-    <div className='container mx-auto flex font-krub font-bold'>
+    <div className='container mx-auto flex font-krub font-bold overflow-hidden'>
       <div className='w-1/2 relative'>
         <div className='absolute bottom-28 -left-60'>
           <Image
             src={UIsign}
             alt="ui sign"
-            className="opacity-60 -rotate-180 scale-[1.20]"
+            className="-rotate-180 scale-[1.20]"
           />
         </div>
         <Image

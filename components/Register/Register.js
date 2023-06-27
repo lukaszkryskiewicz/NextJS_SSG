@@ -1,17 +1,18 @@
 import Image from "next/image";
 import registerPerson from '../../public/register-person.png'
-import UIsign from '../../public/ui-sign.png'
 import Button from "../common/Button";
 import whiteArrowRight from '../../public/white-arrow-right.png'
 
 const Register = () => {
   return (
     <div className='relative h-[430px] w-screen font-krub'>
-      <Image
-        src={registerPerson}
-        alt="person"
-        className="float-right me-44 -z-10"
-      />
+      <div className='relative container mx-auto'>
+        <Image
+          src={registerPerson}
+          alt="person"
+          className="absolute right-0"
+        />
+      </div>
       <div className='absolute top-0 left-0 h-full bg-registerColor/[0.7] w-screen' >
         <div className='container mx-auto flex justify-between h-full'>
           <div className='w-2/5 uppercase text-main text-center my-auto'>

@@ -8,11 +8,11 @@ import Button from '../common/Button'
 const Intro = () => {
   return (
     <div className='relative'>
-      <div className='container mx-auto relative h-[870px]'>
+      <div className='container mx-auto relative h-[870px] overflow-hidden'>
         <Image
           src={UiSign}
           alt="ui sign"
-          className="opacity-60 absolute -right-10 top-0 z-10"
+          className="absolute -right-10 top-0 z-10"
         />
         <Image
           src={introPerson}
