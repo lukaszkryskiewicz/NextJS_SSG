@@ -3,6 +3,7 @@ import Explore from '@/components/Explore/Explore'
 import Header from '@/components/Header/Header'
 import HowItWorks from '@/components/HowItWorks/HowItWorks'
 import Intro from '@/components/Intro/Intro'
+import WhyUs from '@/components/WhyUs/WhyUs'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Explore />
       <Course />
       <HowItWorks />
+      <WhyUs />
     </main>
   )
 }

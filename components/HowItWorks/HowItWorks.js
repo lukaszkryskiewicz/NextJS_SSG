@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const HowItWorks = () => {
   return (
-    <div className='container mx-auto font-krub mb-10'>
+    <div className='container mx-auto font-krub mb-40'>
       <div className='relative float-right font-bold tracking-widest before:content-[""] before:top-4 before:-left-24 before:absolute before:border-solid before:border-[3px] before:w-[66px]'>
         <p className='text-[21px]'>2022</p>
       </div>
