@@ -7,7 +7,8 @@ import Button from '../common/Button'
 
 const Intro = () => {
   return (
-    <div className='relative'>
+    <div className='relative pt-10'>
+      <div className='absolute h-11 w-11 top-0 right-1/2 -translate-x-full rounded-full shadow-[0_0_41px_2px_rgba(0,0,0,0.13)] -z-10'></div>
       <div className='container mx-auto relative h-[870px] overflow-hidden'>
         <Image
           src={UiSign}
@@ -20,13 +21,13 @@ const Intro = () => {
           className="absolute right-24 top-6"
         />
         <div className='font-krub'>
-          <div className='w-1/4 pt-5'>
-            <div className='mb-20 relative uppercase flex justify-between items-end after:content-[""] after:absolute after:-bottom-9 after:left-2 after:w-[70px] after:border-solid after:border-2'>
+          <div className='w-1/3 pt-5'>
+            <div className='mb-20 relative uppercase flex justify-start items-end after:content-[""] after:absolute after:-bottom-9 after:left-2 after:w-[70px] after:border-solid after:border-2'>
               <h1 className='text-[116px] uppercase font-bold leading-none'>ui.</h1>
-              <h2 className='text-[38px] font-light tracking-widest'>beginner<span className='font-bold lowercase'>{"'s"}</span></h2>
+              <h2 className='text-[38px] ms-5 font-light tracking-widest'>beginner<span className='font-bold lowercase'>{"'s"}</span></h2>
             </div>
           </div>
-          <div className=''>
+          <div className='relative'>
             <div className='flex justify-between'>
               <div className='w-1/4 text-justify font-bold'>
                 <h3 className='mb-3 uppercase text-[18px] tracking-wide min-w-full'>Start guide for beginner designers</h3>
@@ -44,6 +45,7 @@ const Intro = () => {
               <Button buttonClass='bg-mainPurple text-main px-6 py-4 !tracking-widest'>{"Let's start"}</Button>
               <Button buttonClass='px-6 py-4 !tracking-wider font-bold'>read more</Button>
             </div>
+            <div className='absolute h-28 w-28 -bottom-40 left-60 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
           </div>
         </div>
       </div>

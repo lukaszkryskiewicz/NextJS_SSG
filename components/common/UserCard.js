@@ -5,6 +5,15 @@ import fullStar from '../../public/star-color.png'
 import blankStar from '../../public/star-blank.png'
 
 const UserCard = (user) => {
+
+  const getDayDifference = (date) => {
+    const reviewDate = new Date(date);
+    const todayDate = new Date();
+    const totalDays = Math.floor((todayDate.getTime() - reviewDate.getTime()) / (1000 * 60 * 60 * 24))
+    return totalDays
+  }
+
+
   return (
     <div className='flex h-[235px] justify-between gap-5 font-krub my-10'>
       <div className=''>
@@ -25,7 +34,7 @@ const UserCard = (user) => {
         </div>
         <div className='mb-1 flex gap-10 font-bold uppercase items-center'>
           <h2 className='text-[19px]'>{user.name}</h2>
-          <p className='text-[11px] font-buttonFont text-[#939393]'>17 days ago</p>
+          <p className='text-[11px] font-buttonFont text-[#939393]'>{getDayDifference(user.date)} days ago</p>
         </div>
         <div className='font-bold text-[13px] tracking-wider leading-6'>
           <p className='text-justify'>

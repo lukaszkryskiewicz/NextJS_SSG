@@ -5,11 +5,13 @@ import Image from "next/image"
 
 const HowItWorks = () => {
   return (
-    <div className='container mx-auto font-krub pb-20 mb-20 overflow-hidden'>
+    <div className='container mx-auto font-krub pb-40 overflow-hidden relative'>
+      <div className='absolute h-28 w-28 bottom-4 left-1/4 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
       <div className='relative float-right font-bold tracking-widest before:content-[""] before:top-4 before:-left-24 before:absolute before:border-solid before:border-[3px] before:w-[66px]'>
         <p className='text-[21px]'>2022</p>
       </div>
-      <div className='flex'>
+      <div className='flex relative'>
+        <div className='absolute h-20 w-20 top-28 right-1/2 translate-x-1/2 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
         <div className='w-1/2'>
           <div className='w-2/3 pt-40'>
             <div className='mb-12 relative flex justify-start items-end'>
@@ -43,12 +45,12 @@ const HowItWorks = () => {
           <Image
             src={UIsign}
             alt="ui sign"
-            className="absolute -right-[55%] top-0 z-10 scale-[0.95]"
+            className="absolute -right-[45%] top-0 z-10 scale-[0.95]"
           />
           <Image
             src={howItWorksPerson}
             alt="person"
-            className="absolute right-24 top-6"
+            className="mx-auto"
           />
         </div>
       </div>

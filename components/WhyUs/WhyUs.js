@@ -5,7 +5,9 @@ import Button from '../common/Button'
 
 const WhyUs = () => {
   return (
-    <div className='container mx-auto my-40 font-krub'>
+    <div className='container mx-auto mb-20 py-12 font-krub relative overflow-hidden'>
+      <div className='absolute h-48 w-48 top-3 right-0 translate-x-1/2 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
+      <div className='absolute h-20 w-20 bottom-20 right-60 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
       <div className='flex justify-between'>
         <div className='w-1/2 relative'>
           <div className='absolute'>
