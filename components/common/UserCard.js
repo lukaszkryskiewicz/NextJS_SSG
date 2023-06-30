@@ -18,7 +18,7 @@ const UserCard = (user) => {
     <div className='flex h-[235px] justify-between gap-5 font-krub my-10'>
       <div className=''>
         <Image
-          src={'/../public/user' + user.id + '.png'}
+          src={'/user' + user.id + '.png'}
           alt='user'
           width='230'
           height='230'
