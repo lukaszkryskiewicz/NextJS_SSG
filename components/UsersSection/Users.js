@@ -10,7 +10,7 @@ const Users = () => {
 
 
   return (
-    <div className='grid grid-cols-2 gap-20 mt-20'>
+    <div className='grid lg:grid-cols-2 grid-cols-1 md:gap-20 gap-2 sm:mt-20 mt-5'>
       {usersArr.map(user => (
         <div className='' key={user.id}>
           <UserCard {...user} />

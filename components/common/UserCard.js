@@ -15,28 +15,29 @@ const UserCard = (user) => {
 
 
   return (
-    <div className='flex h-[235px] justify-between gap-5 font-krub my-10'>
+    <div className='flex lg:h-[235px] justify-between gap-5 font-krub my-10'>
       <div className=''>
         <Image
           src={'/user' + user.id + '.png'}
           alt='user'
           width='230'
           height='230'
-          className='rounded-full border-2 border-solid border-black'
+          className='rounded-full border-2 border-solid border-black '
         />
       </div>
-      <div className='w-7/12'>
+      <div className='sm:w-7/12 w-full'>
         <div className='mb-5'>
           <Image
             src={startQuote}
             alt='startQoute'
+            className='sm:scale-100 scale-75'
           />
         </div>
         <div className='mb-1 flex gap-10 font-bold uppercase items-center'>
-          <h2 className='text-[19px]'>{user.name}</h2>
-          <p className='text-[11px] font-buttonFont text-[#939393]'>{getDayDifference(user.date)} days ago</p>
+          <h2 className='sm:text-[19px] text-[15px]'>{user.name}</h2>
+          <p className='sm:text-[11px] text-[10px] font-buttonFont text-[#939393]'>{getDayDifference(user.date)} days ago</p>
         </div>
-        <div className='font-bold text-[13px] tracking-wider leading-6'>
+        <div className='font-bold sm:text-[13px] text-[12px] tracking-wider leading-6'>
           <p className='text-justify'>
             {user.content}
           </p>
@@ -45,6 +46,7 @@ const UserCard = (user) => {
           <Image
             src={endQuote}
             alt='endQoute'
+            className='sm:scale-100 scale-75'
           />
         </div>
         <div className='mt-4'>
