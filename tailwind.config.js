@@ -13,6 +13,7 @@ module.exports = {
       'white': '#ffffff',
       'registerColor': '#a460f9',
       'transparent': 'transparent',
+      'overlay': '#DCDCDC',
     },
 
     fontFamily: {
