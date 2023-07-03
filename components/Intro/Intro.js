@@ -1,6 +1,5 @@
 const { default: Image } = require("next/image")
 import UiSign from '../../public/ui-sign.png'
-import introPerson from '../../public/intro-person.png'
 import ArrowRight from '../../public/arrow-right.png'
 import ArrowLeft from '../../public/arrow-left.png'
 import Button from '../common/Button'
@@ -66,7 +65,7 @@ const Intro = () => {
           <Image
             src={ArrowRight}
             alt="right arrow"
-            className='bg-white/[0.3] p-1'
+            className='bg-main/[0.3] p-1'
           />
         </div>
         <div className=' bg-black md:h-56 sm:h-48 h-44 text-main md:text-3xl text-center md:text-left text-l font-light tracking-[.1em]'>
