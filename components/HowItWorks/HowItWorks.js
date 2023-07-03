@@ -26,7 +26,7 @@ const HowItWorks = () => {
             <div className='grid md:grid-cols-2 '>
               {[0, 1, 2, 3].map((i, index) => (
                 <div key={index} className='my-7'>
-                  <p className='md:text-[16px] text-[12px] font-bold uppercase relative md:ms-8'><span className='text-4xl md:-left-9 left-9 -top-3 leading-none absolute'>{'\u25A0'}</span>Lorem ipsum dolor.</p>
+                  <p className='md:text-[16px] text-[12px] font-bold uppercase relative md:ms-8'><span className='sm:text-4xl text-xl  md:-left-9 left-9 md:-top-3 -top-1 leading-none absolute'>{'\u25A0'}</span>Lorem ipsum dolor.</p>
                 </div>))}
             </div>
           </div>

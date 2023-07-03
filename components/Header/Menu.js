@@ -31,7 +31,7 @@ const Menu = () => {
           />
         </button>
         {showMobile && (
-          <div className="absolute top-16 right-0 bg-white p-4 z-10">
+          <div className="absolute top-10 right-0 bg-white p-4 z-10">
             <ul className="space-y-4 text-center uppercase font-krub font-bold">
               {menuLinks.map((link) => (
                 <li key={link} className='' onClick={() => setShowMobile(!showMobile)}>

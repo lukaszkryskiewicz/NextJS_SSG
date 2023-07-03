@@ -27,7 +27,7 @@ const WhyUs = () => {
           </div>
           <div className='lg:w-9/12 w-11/12 text-justify font-bold md:mx-0 mx-auto'>
             <p className='relative mt-3 md:text-[14px] text-[12px] leading-loose'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsum suspendisse  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsum suspendisse
-              <span className='text-4xl ms-3 absolute -bottom-1'>{'\u25A0'}</span>
+              <span className='sm:text-4xl text-xl ms-3 absolute sm:-bottom-1 bottom-0'>{'\u25A0'}</span>
             </p>
             <div className='buttons mt-16 md:text-[14px] text-[12px] font-bold md:text-left text-center'>
               <Button buttonClass='bg-mainPurple px-6 py-4 !tracking-widest'>read more</Button>

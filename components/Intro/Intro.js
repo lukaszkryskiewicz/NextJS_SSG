@@ -20,7 +20,7 @@ const Intro = () => {
             <div className=' text-justify font-bold'>
               <h3 className='mb-3 uppercase md:text-[18px] text-[14px] text-center md:text-left tracking-wide min-w-full'>Start guide for beginner designers</h3>
               <p className=' relative mt-3 md:text-[14px] text-[12px] leading-loose'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsum suspendisse
-                <span className='text-4xl ms-3 absolute -bottom-1'>{'\u25A0'}</span>
+                <span className='sm:text-4xl text-xl ms-3 absolute -bottom-1'>{'\u25A0'}</span>
               </p>
             </div>
             <div className='relative md:justify-start justify-center flex md:mt-9 mt-4 gap-2 md:text-[14px] text-[12px]'>
@@ -71,7 +71,7 @@ const Intro = () => {
         <div className=' bg-black md:h-56 sm:h-48 h-44 text-main md:text-3xl text-center md:text-left text-l font-light tracking-[.1em]'>
           <div className='container mx-auto h-full flex sm:flex-row flex-col justify-between'>
             <div className='my-auto relative'>
-              Join the <span className='font-black'>community <span className='text-4xl absolute -bottom-1 ms-3'>{'\u25A0'}</span></span>
+              Join the <span className='font-black'>community <span className='sm:text-4xl text-xl absolute -bottom-1 ms-3'>{'\u25A0'}</span></span>
             </div>
             <div className='w-fit mx-auto sm:mx-0 my-auto flex flex-col outline outline-2 outline-offset-2 text-center md:p-6 p-3'>
               <span className='text-base uppercase'>Editio<span className='tracking-normal'>n</span></span>
