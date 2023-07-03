@@ -57,7 +57,7 @@ const UserCard = (user) => {
                   key={index}
                   src={fullStar}
                   alt='fullStar'
-                  className='inline m-2'
+                  className='inline sm:m-2 m-1'
                 />
               );
             } else {
@@ -66,7 +66,7 @@ const UserCard = (user) => {
                   key={index}
                   src={blankStar}
                   alt='blankStar'
-                  className='inline m-2'
+                  className='inline sm:m-2 m-1'
                 />
               );
             }

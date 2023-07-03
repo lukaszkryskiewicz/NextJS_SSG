@@ -5,15 +5,8 @@ import whiteArrowRight from '../../public/white-arrow-right.png'
 
 const Register = () => {
   return (
-    <div className='relative lg:h-[430px] h-[332px] w-screen font-krub'>
-      <div className='max-md:hidden relative container mx-auto h-full'>
-        <Image
-          src={registerPerson}
-          alt="person"
-          className="absolute xl:left-1/4 lg:left-40 left-28 bottom-0"
-        />
-      </div>
-      <div className='absolute top-0 left-0 h-full bg-registerColor/[0.7] w-screen' >
+    <div className='lg:h-[430px] h-[332px] font-krub md:bg-[url(/register-person.png)] bg-no-repeat bg-right bg-contain -z-10 '>
+      <div className='relative bg-registerColor/[0.7] w-screen mx-auto h-full '>
         <div className='container mx-auto flex justify-between h-full'>
           <div className='md:w-2/5 w-full uppercase text-main text-center my-auto relative'>
             <h1 className='lg:text-[52px] text-[40px] font-bold'>Register now</h1>

@@ -5,7 +5,7 @@ import arrowDown from '../../public/arrow-down.png'
 
 const Explore = () => {
   return (
-    <div className='container mx-auto mt-32 relative lg:h-[720px]'>
+    <div className='container mx-auto mt-32 lg:mt-16 relative lg:h-[720px]'>
       <div className='absolute flex justify-between w-full'>
         <div className=' h-14 w-14 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
         <div className=' h-14 w-14 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>

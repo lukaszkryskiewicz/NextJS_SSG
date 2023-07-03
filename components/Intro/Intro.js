@@ -6,13 +6,13 @@ import Button from '../common/Button'
 
 const Intro = () => {
   return (
-    <div className='relative pt-10 md:mb-0 mb-60'>
+    <div className='relative md:pt-10 lg:mb-0 mb-40'>
       <div className='absolute h-11 w-11 top-0 right-1/2 -translate-x-full rounded-full shadow-[0_0_41px_2px_rgba(0,0,0,0.13)] -z-10'></div>
       <div className='container mx-auto relative xl:h-[870px] lg:h-[800px] overflow-hidden flex flex-col lg:flex-row'>
         <div className='lg:w-1/3 basis-1/3 font-krub mb-0'>
           <div className=' pt-5'>
             <div className='mb-20 relative uppercase flex  md:justify-start justify-center items-end after:md:content-[""] after:hidden after:md:inline after:absolute after:-bottom-9 after:left-2 after:w-[70px] after:border-solid after:border-2'>
-              <h1 className='lg:text-[116px] md:text-[93px] text-[54px] uppercase font-bold leading-none'>ui.</h1>
+              <h1 className='lg:text-[116px] sm:text-[93px] text-[54px] uppercase font-bold leading-none'>ui.</h1>
               <h2 className='md:text-[38px] text-[26px] ms-5 font-light tracking-widest'>beginner<span className='font-bold lowercase'>{"'s"}</span></h2>
             </div>
           </div>
