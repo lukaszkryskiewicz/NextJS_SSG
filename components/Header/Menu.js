@@ -31,15 +31,15 @@ const Menu = () => {
           />
         </button>
         {showMobile && (
-          <div className="absolute top-10 right-0 bg-white p-4 z-10">
-            <ul className="space-y-4 text-center uppercase font-krub font-bold">
+          <div className="absolute top-10 right-0 bg-white z-10 py-1">
+            <ul className="w-[200px] text-center uppercase font-krub font-bold">
               {menuLinks.map((link) => (
-                <li key={link} className='' onClick={() => setShowMobile(!showMobile)}>
-                  <a href="#">{link}</a>
+                <li key={link} className='h-[60px] flex items-center' onClick={() => setShowMobile(!showMobile)}>
+                  <a className='w-full' href="#">{link}</a>
                 </li>
               ))}
-              <li>
-                <a href="#">sing up</a>
+              <li className='h-[50px] flex items-center'>
+                <a className='w-full' href="#">sing up</a>
               </li>
             </ul>
           </div>

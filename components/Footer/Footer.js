@@ -61,19 +61,20 @@ const Footer = () => {
           </form>
           <div className='ps-5 flex justify-between w-3/4 my-5'>
             <p className='text-[20px] font-normal'>Follow us!</p>
-
             <Image
               src={fb}
               alt='fb'
-              className=''
+              className='object-contain'
             />
             <Image
               src={ig}
               alt='ig'
+              className='object-contain'
             />
             <Image
               src={youtube}
               alt='youtube'
+              className='object-contain'
             />
 
           </div>

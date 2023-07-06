@@ -15,18 +15,18 @@ const UserCard = (user) => {
 
 
   return (
-    <div className='flex lg:h-[235px] justify-between gap-5 font-krub my-10'>
-      <div className=''>
+    <div className='flex sm:flex-row flex-col lg:h-[235px] justify-between sm:gap-5 font-krub sm:my-10 my-1'>
+      <div className='my-auto'>
         <Image
           src={'/user' + user.id + '.png'}
           alt='user'
           width='230'
           height='230'
-          className='rounded-full border-2 border-solid border-black '
+          className='rounded-full border-2 border-solid border-black mx-auto max-sm:scale-75'
         />
       </div>
-      <div className='sm:w-7/12 w-full'>
-        <div className='mb-5'>
+      <div className='sm:w-7/12 w-11/12 mx-auto'>
+        <div className='sm:mb-5 mb-2'>
           <Image
             src={startQuote}
             alt='startQoute'
