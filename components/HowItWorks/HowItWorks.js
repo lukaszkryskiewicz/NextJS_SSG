@@ -32,7 +32,7 @@ const HowItWorks = () => {
           </div>
           <div className='md:mt-16 mt-10 flex md:justify-between justify-center'>
             <div className='md:text-[14px] text-[12px]'>
-              <Button buttonClass='bg-mainPurple px-6 py-4 !tracking-widest font-bold'>
+              <Button buttonClass='bg-mainPurple px-6 py-4 !tracking-widest font-bold hover:bg-black hover:text-mainPurple'>
                 Read More
               </Button>
             </div>

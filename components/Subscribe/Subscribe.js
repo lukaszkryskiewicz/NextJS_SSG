@@ -14,33 +14,13 @@ const Subscribe = () => {
         </div>
         <SubscriptionForm />
       </div>
-      {/* <div className='basis-1/2 relative'>
-        <div className='absolute 2xl:bottom-20 xl:bottom-8 lg:bottom-0 md:-bottom-20 -bottom-12 lg:-left-60'>
-          <Image
-            src={UIsign}
-            alt="ui sign"
-            className="-rotate-180 2xl:scale-[1.15] xl:scale-[1.05] lg:scale-[1] scale-[0.75] "
-          />
-        </div>
-        <Image
-          src={subscribePerson}
-          alt="person"
-          className="mx-auto max-w-[400px] sm:max-w-[450px] lg:max-w-full "
-        />
-      </div> */}
       <div className='lg:pt-0 pt-12 basis-1/2 flex flex-end items-end relative bg-[url(/subscribe-person.png)] bg-contain bg-no-repeat bg-center'>
         <Image
           src={UIsign}
           alt="ui sign"
           className="-rotate-180 lg:absolute -translate-x-1/4 lg:scale-[1.4] xl:scale-[1.3] xl:top-40  2xl:scale-[1.2] 2xl:top-36 lg:top-32"
         />
-        {/*  <Image
-          src={subscribePerson}
-          alt="person"
-          className="mx-auto max-w-[400px] sm:max-w-[450px] lg:max-w-full "
-        /> */}
       </div>
-
     </div>
   )
 }

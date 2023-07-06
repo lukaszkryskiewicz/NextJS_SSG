@@ -30,7 +30,7 @@ const WhyUs = () => {
               <span className='sm:text-4xl text-xl ms-3 absolute sm:-bottom-1 bottom-0'>{'\u25A0'}</span>
             </p>
             <div className='buttons mt-16 md:text-[14px] text-[12px] font-bold md:text-left text-center'>
-              <Button buttonClass='bg-mainPurple px-6 py-4 !tracking-widest'>read more</Button>
+              <Button buttonClass='bg-mainPurple px-6 py-4 !tracking-widest hover:bg-black hover:text-mainPurple'>read more</Button>
             </div>
           </div>
         </div>

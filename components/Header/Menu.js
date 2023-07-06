@@ -13,12 +13,12 @@ const Menu = () => {
       <div className='max-sm:hidden flex justify-between w-full'>
         {menuLinks.map(link => (
           <div key={link} className='my-auto'>
-            <Button buttonClass='font-medium'>
+            <Button buttonClass='font-medium hover:text-mainPurple'>
               {link}
             </Button>
           </div>
         ))}
-        <Button buttonClass='bg-black text-[17px] my-auto p-2 text-main w-28 font-semibold'>
+        <Button buttonClass='bg-black text-[17px] my-auto p-2 text-main w-28 font-semibold hover:text-mainPurple'>
           sign in
         </Button>
       </div>

@@ -24,8 +24,8 @@ const Intro = () => {
               </p>
             </div>
             <div className='relative md:justify-start justify-center flex md:mt-9 mt-4 gap-2 md:text-[14px] text-[12px]'>
-              <Button buttonClass='bg-mainPurple text-main px-6 py-4 !tracking-widest'>{"Let's start"}</Button>
-              <Button buttonClass='px-6 py-4 !tracking-wider font-bold'>read more</Button>
+              <Button buttonClass='bg-mainPurple text-main px-6 py-4 !tracking-widest hover:text-mainPurple hover:bg-black'>{"Let's start"}</Button>
+              <Button buttonClass='px-6 py-4 !tracking-wider font-bold hover:text-mainPurple'>read more</Button>
               <div className='md:hidden absolute -bottom-1/2 translate-y-1/2 w-full flex justify-between'>
                 <Image
                   src={ArrowLeft}

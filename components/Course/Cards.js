@@ -39,8 +39,8 @@ const Cards = () => {
       </div>
       <div className='text-center mt-16'>
         {cardsContent.map((i, index) => (
-          <p key={index} className={`text-xs p-4 inline text-[#cbcaca]' ${activeCard === (index) ? 'text-mainPurple' : ''}`}>
-            <span onClick={() => handleClick(index)}>{'\u2b24'}</span>
+          <p key={index} className={`text-xs p-4 inline ${activeCard === (index) ? 'text-mainPurple' : 'text-[#cbcaca]'}`}>
+            <span className='cursor-pointer' onClick={() => handleClick(index)}>{'\u2b24'}</span>
           </p>
         ))}
       </div>
