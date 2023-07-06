@@ -1,9 +1,14 @@
+'use client'
 import Image from "next/image";
 import explorePerson from '../../public/explore-person.png'
 import UIsign from '../../public/ui-sign.png'
 import arrowDown from '../../public/arrow-down.png'
 
 const Explore = () => {
+  const handleClick = () => {
+    window.scrollTo({ top: window.innerHeight + 720, behavior: "smooth" });
+  };
+
   return (
     <div className='container mx-auto mt-32 lg:mt-16 relative lg:h-[720px] overflow-hidden'>
       <div className='absolute flex justify-between w-full'>
@@ -27,11 +32,12 @@ const Explore = () => {
           <Image
             src={arrowDown}
             alt='arrow down'
-            className='mx-auto mb-6'
+            className='max-sm:hidden mx-auto mb-6 cursor-pointer'
+            onClick={handleClick}
           />
         </div>
       </div>
-      <div className='absolute md:top-1/3 top-0 w-full h-1/2'>
+      <div className='absolute md:top-1/3 top-0 w-full h-1/2 lg:max-xl:-z-10'>
         <div className='flex flex-col justify-between h-full'>
           <div className='flex uppercase md:justify-between justify-start text-[37px]'>
             <div className='relative text-[25px] md:text-[37px] font-bold'>

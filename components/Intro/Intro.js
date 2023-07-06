@@ -26,18 +26,6 @@ const Intro = () => {
             <div className='relative md:justify-start justify-center flex md:mt-9 mt-4 gap-2 md:text-[14px] text-[12px]'>
               <Button buttonClass='bg-mainPurple text-main px-6 py-4 !tracking-widest hover:text-mainPurple hover:bg-black'>{"Let's start"}</Button>
               <Button buttonClass='px-6 py-4 !tracking-wider font-bold hover:text-mainPurple'>read more</Button>
-              <div className='md:hidden absolute -bottom-1/2 translate-y-1/2 w-full flex justify-between'>
-                <Image
-                  src={ArrowLeft}
-                  alt="left arrow"
-                  className='scale-75'
-                />
-                <Image
-                  src={ArrowRight}
-                  alt="right arrow"
-                  className='scale-75'
-                />
-              </div>
             </div>
             <div className='absolute h-28 w-28 -bottom-40 left-60 rounded-full shadow-[0_0_41px_1px_rgba(0,0,0,0.08)] -z-10'></div>
           </div>
@@ -56,18 +44,6 @@ const Intro = () => {
         </div>
       </div>
       <div className='absolute lg:bottom-8 -bottom-24 inset-x-0 z-20 font-krub'>
-        <div className='max-md:hidden container mx-auto mb-4 arrows flex justify-between'>
-          <Image
-            src={ArrowLeft}
-            alt="left arrow"
-            className='p-1'
-          />
-          <Image
-            src={ArrowRight}
-            alt="right arrow"
-            className='bg-main/[0.3] p-1'
-          />
-        </div>
         <div className=' bg-black md:h-56 sm:h-48 h-44 text-main md:text-3xl text-center md:text-left text-l font-light tracking-[.1em]'>
           <div className='container mx-auto h-full flex sm:flex-row flex-col justify-between'>
             <div className='my-auto relative'>
