@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SSG Next JS template
 
-## Getting Started
+A site built in Next.js using Static Site Generation (SSG) and Tailwind CSS. Project based on template.
 
-First, run the development server:
+## [Live Demo](https://next-js-ssg-psi.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- React
+- Tailwind CSS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Site template project utilizes Static Site Generation in NextJS. All styles implemented using Tailwind CSS. 
 
-## Learn More
+Features of the template include:
+* Interactive buttons (they don't navigate)
+* Arrow in Explore section that scrolls to next section
+* Cards in Course Section that are connected with dots and change styles when Card is active
 
-To learn more about Next.js, take a look at the following resources:
+The deisign of the template is based [Freepik template](https://www.freepik.com/free-psd/user-interface-design-web-template_20548065.htm)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Top section
+![Top](public/screenshots/nextjssite-top.png)  
+  &nbsp;  
+### Mobile view top section + menu
+![Mobile view top + menu](public/screenshots/nextjssite-mobiletopmenu.png)  
+  &nbsp;
+### Course section
+![Course](public/screenshots/nextjssite-course.png)  
+  &nbsp;
+### Mobile view course section
+![Mobile view course](public/screenshots/nextjssite-mobilecourse.png)  
+  &nbsp;
+### Explore section
+![Explore](public/screenshots/nextjssite-explore.png)  
+  &nbsp;
+### How it works section
+![how it works](public/screenshots/nextjssite-howitworks.png)  
+  &nbsp;
+### Users section
+![Users](public/screenshots/nextjssite-users.png)  
+  &nbsp;
+### Subscribe section
+![Subscribe](public/screenshots/nextjssite-subscribe.png)
